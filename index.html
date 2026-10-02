@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080914">
+<title>BFF Trio Family</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#070811;color:#f6f7ff;font-family:Arial,sans-serif;line-height:1.5}
+.hero{min-height:70vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:45px 20px;background:radial-gradient(circle at 20% 20%,#151a52 0,transparent 35%),radial-gradient(circle at 80% 30%,#44104e 0,transparent 35%),linear-gradient(135deg,#05060d,#0b1025 50%,#080711);border-bottom:2px solid #2bd8ff}
+.badge{border:1px solid #5e6bff;border-radius:999px;padding:10px 18px;background:#0d1024;color:#61ddff;font-weight:800;letter-spacing:.14em}
+h1{font-size:clamp(4rem,14vw,9rem);line-height:.85;margin:28px 0 8px;font-weight:1000;font-style:italic;background:linear-gradient(90deg,#fff,#a8eaff,#fff,#ff8bf2);-webkit-background-clip:text;color:transparent}
+.hero h2{margin:0;font-size:clamp(1.3rem,4vw,2.5rem);letter-spacing:.35em}.hero p{font-size:1.15rem;color:#e8d7ff}
+.btn{margin-top:18px;text-decoration:none;color:white;background:linear-gradient(90deg,#00bfff,#a900ff);padding:14px 25px;border-radius:999px;font-weight:800}
+section{max-width:1150px;margin:auto;padding:65px 20px}.intro{text-align:center}.eyebrow{letter-spacing:.18em;font-weight:800;color:#61ddff}h2{font-size:clamp(2rem,5vw,3rem);margin:8px 0}.muted{color:#bfc4dc}
+.members{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;padding-top:5px}
+.member{overflow:hidden;background:#0f1224;border:1px solid #3340a5;border-radius:22px;box-shadow:0 15px 50px #0008}
+.member img{width:100%;aspect-ratio:1.25;object-fit:cover;display:block}.member-body{padding:20px}.member h3{font-size:2rem;margin:4px 0;background:linear-gradient(90deg,#5ee8ff,#ff62e8);-webkit-background-clip:text;color:transparent}
+.number{font-size:.75rem;color:#55dfff;letter-spacing:.14em}
+.rules{border-top:1px solid #252a55}.rule-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.rule-grid div{padding:20px;border-radius:16px;background:#0f1224;border:1px solid #252b59}.rule-grid b{display:block;color:#ff6be6;font-size:1.3rem}
+.qr{text-align:center;border-top:1px solid #252a55}.qr img{width:210px;height:210px;background:#fff;padding:10px;border-radius:12px}
+footer{padding:30px 20px;text-align:center;background:#05060c;border-top:2px solid #232852}footer strong{color:#61ddff}footer small{display:block;color:#777d9b;margin-top:8px}
+@media(max-width:850px){.members,.rule-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="hero">
+<div class="badge">👑 BFF TRIO FAMILY 👑</div>
+<h1>BFF TRIO</h1><h2>MK • LSG • TINO</h2>
+<p>Different names. Same bond. ❤️</p><a class="btn" href="#members">Meet the Trio</a>
+</header>
+<section class="intro"><p class="eyebrow">THREE MEMBERS • ONE FAMILY</p><h2>Welcome to the BFF Trio</h2><p class="muted">A friendship built on trust, memories, support and staying together.</p></section>
+<section id="members" class="members">
+<article class="member"><img src="member-1.jpg" alt="MK BFF card"><div class="member-body"><span class="number">BFF MEMBER 001</span><h3>MK</h3><p class="muted">Part of the BFF Trio Family.</p></div></article>
+<article class="member"><img src="member-2.jpg" alt="LSG BFF card"><div class="member-body"><span class="number">BFF MEMBER 001</span><h3>LSG</h3><p class="muted">Part of the BFF Trio Family.</p></div></article>
+<article class="member"><img src="member-3.jpg" alt="TINO BFF card"><div class="member-body"><span class="number">BFF MEMBER 001</span><h3>TINO</h3><p class="muted">Part of the BFF Trio Family.</p></div></article>
+</section>
+<section class="rules"><p class="eyebrow">BFF TRIO CODE</p><h2>Our Family Rules ❤️</h2>
+<div class="rule-grid"><div><b>01</b>No member gets left behind.</div><div><b>02</b>Respect each other.</div><div><b>03</b>Private conversations stay private.</div><div><b>04</b>Support each other.</div><div><b>05</b>Make memories and have fun.</div><div><b>06</b>Three members. One family.</div></div></section>
+<section class="qr"><p class="eyebrow">SCAN TO VISIT</p><h2>Our BFF Website</h2><p class="muted">Scan this code to open the BFF Trio Family website.</p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZoAAAGaAQAAAAAefbjOAAADEUlEQVR4nO2cTY6jPBCGn/czUpaOlAP0UcwNviPN1eAofYCR7GUkUM3ChtCTxajVrSQN5QUKgUex5VL9vBSR8ekx/vd5BhxyyCGHHHLIoX1CaqODURLjGaTzLGAWlOWG/inTc+jxUDIzswxAMPVFsoFgkk6mnmBmZvYRetz0HHo8VJoD0K88C+KE+tJhA7MAqB7kWdNz6HnQeA5Geu8g2VWkHO7r05+2Joc+Mbq7b2LGxrepM8rFIF71Pb/k0M+AFouIBhQgDaCUZwQBEbNBga2nePE1OfQN0ChJOgOUDignI2UgvXeoZ66lxrOm59CjfcTWAcSrDK4yyizGM7KPN7z8mhz6CkStKlMGqEXmhA3r5ZThVpbWMbz4mhz6FihYrTmlk+lXDkayCca3qV63AVD/rOk59CiIrfJEqzTNbIKUg5nlYBCbG3EfsX+obXKNC3HaBJFmKtEWsyBY1TbdIg4DlZMxSrIhmkGRzN471MertsrET1qTQ58dLRAA1Q5SDRhAsqnGD7PcUk73EfuHljBRNx5amLAlVqQc7FZ6eB6xf2hjEfUAq7eoxtBSCBu8+jwEhN3GQFjix/rJMtgQW8DwqLF/aJNHLHUFsMoTrf7IzUrcIvYPVRVbKZ8xSjdBNET8LSCY2gGU8mURs198TQ59BbrXI3JzBXALInEC1yOOAS1RY93ztvFLolk7Zmr8WPONF1+TQ1+BNtJkLUGrOBVvxei0JJrRM8sjQGv1ucpUy4H6sHN95rVq3G4Ru4aWHqpymUTMKBkIwCgXVLXrcsYoJ+/FPgC01SwHbkFkPV07b5uo7T5i59BWoaq2sdYayba61O2CW8SuoaZHtLMw2fh2FaNq1DCNAiiXCZjlesT+oW1meeuOYakr6j3rJ48ax4HK+lIn69OMIlUrGSU1UeJJ03PoeVDKoJ5Z6uOE9LZqFHif5RGg+3e6ymViVDDGczbB3JHehY3/B68+DwD9nUe0NogPzTKLj/D+iCNAd73YtaEub/sjtv11bhF7h2T/vufv4f9M5pBDDjnkkEMOAfwBUYSi/Si5sWgAAAAASUVORK5CYII=" alt="BFF Trio Family QR code"></section>
+<footer><strong>BFF TRIO FAMILY</strong><br>MK • LSG • TINO<small>Novelty / friendship website — not an official ID.</small></footer>
+</body></html>
